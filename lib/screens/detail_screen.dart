@@ -14,6 +14,7 @@ class DetailScreen extends StatelessWidget {
           icon: Icon(Icons.arrow_back),
           onPressed: () => Navigator.pop(context),
         ),
+        backgroundColor: Colors.blue,
       ),
       body: SingleChildScrollView(
         child: Column(

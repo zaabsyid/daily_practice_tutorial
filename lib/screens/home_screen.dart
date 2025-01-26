@@ -53,7 +53,7 @@ class SearchBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextField(
       decoration: InputDecoration(
-        hintText: 'Cari Latihan Disini ...',
+        hintText: 'Search Exercise Here ...',
         prefixIcon: const Icon(Icons.search),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(12),
